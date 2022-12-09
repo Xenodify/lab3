@@ -21,6 +21,7 @@ def Delete_car(autopark, car_select):
         autopark = [Car]
     return autopark
 
+# Третий какой-то коммент
 def Append_car(autopark, car):
     Car_create(car)
     autopark.append(car)
