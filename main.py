@@ -28,6 +28,7 @@ def Append_car(autopark, car):
     print(f"Автомобиль {car.name} был добавлен в автопарк")
     return autopark
 
+# Последний какой-то коммент
 def change_characteristics_car(Car):
     if Car.name is None:
         Car_create(Car)
