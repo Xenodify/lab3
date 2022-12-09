@@ -5,13 +5,14 @@ class Car:
         self.company = None
         self.status_door = None
 
-
+# Какой-то новый коммент
 def Car_create(Car):
     Car.company = input("Введите марку автомобиля: ")
     Car.name = input(f"Введите модель {Car.company}: ")
     Car.color = input(f"Введите цвет {Car.company} {Car.name}: ")
     Car.status_door = False
 
+# Еще какой-то новый коммент
 def Delete_car(autopark, car_select):
     print(f"Автомобиль {autopark[car_select].name} был удален")
     del autopark[car_select]
